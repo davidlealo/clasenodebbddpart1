@@ -22,3 +22,14 @@ const agregarViaje = async (destino, presupuesto) => {
 }
 
 agregarViaje("Valdivia", 150000)
+
+const obtenerViajes = async () =>{
+    const {rows} =  await pool.query('SELECT * from viajes')
+    console.log(rows)
+    return rows
+}
+
+
+obtenerViajes()
+
+module.exports = { agregarViaje, obtenerViajes }

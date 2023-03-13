@@ -22,6 +22,8 @@ const agregarEquipamiento = (nombre) =>{
     console.log('equipamiento agregado')
 }
 
+module.exports = { agregarEquipamiento, obtenerEquipamiento }
+
 //agregarEquipamiento('Selfie Stick')
 
 const obtenerEquipamiento = async () =>{
