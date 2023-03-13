@@ -1,0 +1,22 @@
+{
+  "name": "clasenodebbddpart1",
+  "version": "1.0.0",
+  "description": "Archivos de la clase de uso de PG",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidlealo/clasenodebbddpart1.git"
+  },
+  "author": "David Leal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davidlealo/clasenodebbddpart1/issues"
+  },
+  "homepage": "https://github.com/davidlealo/clasenodebbddpart1#readme",
+  "dependencies": {
+    "pg": "^8.10.0"
+  }
+}
